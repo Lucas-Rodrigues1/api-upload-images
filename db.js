@@ -9,6 +9,6 @@ async function main(){
         console.log('Conectado com sucesso!')
 }
 
-main().catch((err) => console.log( ))
+main().catch((err) => console.log(err))
 
 module.export = main;
